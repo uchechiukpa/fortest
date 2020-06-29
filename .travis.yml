@@ -10,6 +10,7 @@ cache:
 install:
   - npm install ci
 script:
+  - npm ls react
   - npm run build
 deploy:
   provider: pages
