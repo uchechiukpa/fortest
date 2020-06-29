@@ -7,7 +7,7 @@ node_js:
 cache: npm 
 
 install:
-  - npm install ci
+  - npm ci
 script:
   - npm test
   - npm run build
